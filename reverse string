@@ -1,0 +1,13 @@
+class  Sanskruti {
+
+    void REVERSE (){
+        String [] INPUT_WORD = {"S","A","N","S","K","R","U","T","I"};
+        int a;
+        for(a=1; a>=0; a=a--);
+            System.out.print ("REVERSE VALUE" + INPUT_WORD[a]);
+    }
+
+    public static void main(String[]args){
+        Sanskruti SA = new Sanskruti();
+         SA.REVERSE();
+    
